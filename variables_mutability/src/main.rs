@@ -7,12 +7,28 @@ fn main() {
     // println!("The value assigned to x: is:  {x} ");
 
     //section of mutability
-    let mut x: i32 = 78;
-    println!("The value of current X is : {x}");
-    x = 90;
-    println!("The runtime changed value : {x}");
-    const y: i128 = 89;
-    println!("The value of current Y is: {y}");
-    const three_hours_in_seconds: u64 = 60 * 60 * 3;
-    println!("The value is : {three_hours_in_seconds}")
+    // let mut x: i8 = 78;
+    // println!("The value of current X is : {x}");
+    // x = 90;
+    // println!("The runtime changed value : {x}");
+    // const Y: i8 = 89;
+    // println!("The value of current Y is: {Y}");
+    // const THREE_HOURS_IN_SECONDS: u16 = 60 * 60 * 3;
+    // println!("The value is : {THREE_HOURS_IN_SECONDS}")
+
+    // Shadowing
+
+    // let x: u8 = 5;
+
+    // let x: u8 = x + 1;
+
+    // {
+    //     let x: u8 = x * 2;
+    //     println!("The value of x in the inner scope is: {x}");
+    // }
+
+    // println!("The value of x is: {x}");
+    let spaces: &str = "    ";
+    let spaces: usize = spaces.len();
+    println!("{spaces}")
 }
